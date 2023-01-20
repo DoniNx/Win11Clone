@@ -12,27 +12,19 @@ import { ref } from 'vue'
 <div class="absolute right-4 top-52 w-[26%] h-[505px] overflow-hidden flex flex-col justify-between">
 
 <div class="flex flex-col pt-4 pb-6 px-2  rounded-lg bg-zinc-900 bg-opacity-70 backdrop-blur-lg h-fit  overflow-scroll shadow-xl ">
-    <div class="flex flex-row text-zinc-50 text-sm">
+    <div class="flex flex-row text-zinc-50 text-sm ">
         <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="24" height="20" viewBox="0 0 48 48"><path fill="#00DA5A" fill-rule="evenodd" d="M238.16 481.36c-7.68-4.56-20.52-5.04-27.84-2.76-1.2.36-2.4-.36-2.76-1.44-.36-1.2.36-2.4 1.44-2.76 8.52-2.52 22.56-2.04 31.44 3.24 1.08.6 1.44 2.04.84 3.12-.6.84-2.04 1.2-3.12.6m-.24 6.72c-.6.84-1.68 1.2-2.52.6-6.48-3.96-16.32-5.16-23.88-2.76-.96.24-2.04-.24-2.28-1.2-.24-.96.24-2.04 1.2-2.28 8.76-2.64 19.56-1.32 27 3.24.72.36 1.08 1.56.48 2.4m-2.88 6.6c-.48.72-1.32.96-2.04.48-5.64-3.48-12.72-4.2-21.12-2.28-.84.24-1.56-.36-1.8-1.08-.24-.84.36-1.56 1.08-1.8 9.12-2.04 17.04-1.2 23.28 2.64.84.36.96 1.32.6 2.04M224 460c-13.2 0-24 10.8-24 24s10.8 24 24 24 24-10.8 24-24-10.68-24-24-24" transform="translate(-200 -460)"/></svg>
         <p>Spotify</p>
     </div>
-    <div class="mx-2 mt-4 flex flex-row justify-between">
-        <div class="text-sm text-zinc-50 font-bold">
-        <p>As it is (in heaven) - Hillsong Wor... </p>
-        <p class="text-xs text-zinc-300">Hillsong Worship </p>
-        </div>
-        <img src="../assets/images/asitis.jpg" alt="album art" class="rounded-sm">
-    </div>
-    <div class="flex justify-center text-zinc-600">
-        Music player coming soon...
-	
+    <div class="flex justify-center text-zinc-600 mt-2">
+      <iframe class="outline-none"  style="border-radius:12px;" src="https://open.spotify.com/embed/playlist/0xbixVhsnViBpQdubPYApX?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>	
     </div>
 
 
 </div>
 <div class="flex flex-col rounded-lg text-zinc-100 justify-between bg-zinc-900 bg-opacity-70 backdrop-blur-lg shadow-xl">                   
     <div class=" grid grid-cols-3 gap-2 py-5 px-4 space-y-3">
-     
+    
 
 <div class="col-span-3"></div>
 <div class="flex flex-row justify-between bg-gray-700/70 backdrop-blur-md rounded-md ">
