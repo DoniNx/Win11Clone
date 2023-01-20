@@ -84,7 +84,7 @@ console.log("message", allProps.tempInC);
     <img :src="weatherIcon" alt="wIcon" class="h-7">
     <div class="text-xs text-zinc-100 font-semibold font-mono">
         <p >{{ allProps.tempInC || '0'   }}<sup>o</sup>C</p>
-        <p>{{ allProps.description || "Undetermined" }} </p>
+        <p>{{ allProps.description || "Undetermined." }} </p>
     </div>
 </div>
 </template>
