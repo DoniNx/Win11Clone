@@ -6,7 +6,7 @@ import { ref } from 'vue'
 let smallIcons = [
     {
         appName: "Telegram",
-        iconImg: '../src/assets/icons/smallIcons/telegram.png'
+        iconImg: './src/assets/icons/smallIcons/telegram.png'
     },
     {
         appName: 'Microsoft',
