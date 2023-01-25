@@ -10,21 +10,21 @@ let smallIcons = [
     },
     {
         appName: 'Microsoft',
-        iconImg: '../src/assets/icons//smallIcons/microsoft.png'
+        iconImg: './src/assets/icons//smallIcons/microsoft.png'
     },
     {
         appName: 'Avast',
-        iconImg: '../src/assets/icons/smallIcons/avast.png'
+        iconImg: './src/assets/icons/smallIcons/avast.png'
     },
         {
         appName: 'Bluetooth',
-        iconImg: '../src/assets/icons/smallIcons/bluetooth.png'},
+        iconImg: './src/assets/icons/smallIcons/bluetooth.png'},
         {
         appName: 'Skype',
-        iconImg: '../src/assets/icons/smallIcons/skype.png'},
+        iconImg: './src/assets/icons/smallIcons/skype.png'},
         {
         appName: 'Proton mail',
-        iconImg: '../src/assets/icons/smallIcons/proton.png'},
+        iconImg: './src/assets/icons/smallIcons/proton.png'},
 
 ];
 

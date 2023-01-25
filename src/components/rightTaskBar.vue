@@ -33,7 +33,7 @@ var myDate = new Date();
           </button>
             <button @click="$emit('toogleCalendarEvent')" title="Date, time and events" class="date h-[83%] text-xs mx-1.5 px-1.5 rounded-[4px] flex flex-row place-items-center space-x-1.5 text-zinc-100 hover:bg-slate-700 outline-none">
             <div class="text-zinc-100 text-xs font-mono">
-              <p>{{ myDate.getHours()}}:{{myDate.getMinutes()}}</p>
+              <p>{{ myDate.getHours()}}:{{myDate.getMinutes()}}AM</p>
               <p>{{ myDate.getMonth()+1}}/{{myDate.getDate()}}/{{myDate.getFullYear()}}</p>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">

@@ -33,9 +33,7 @@ onBeforeMount(async ()=>{
     isFetched.news = true
     })
     
-
-    
-   fetch("https://api.openweathermap.org/data/2.5/weather?lat=8.9806&lon=38.7578&appid=de88c8fbc80c77a7fad3b13e1477d052").then((res)=>res.json()).then((data)=> {
+    fetch("https://api.openweathermap.org/data/2.5/weather?lat=8.9806&lon=38.7578&appid=de88c8fbc80c77a7fad3b13e1477d052").then((res)=>res.json()).then((data)=> {
     myWeather = data
     desc=myWeather.weather[0].description;
     tempr= Math.round(myWeather.main.temp - 273);
@@ -43,6 +41,9 @@ onBeforeMount(async ()=>{
 
  })
 
+    
+    
+   
 
 })
 

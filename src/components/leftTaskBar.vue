@@ -1,5 +1,6 @@
 <script setup>
 import {
+  onBeforeMount,
     ref
 } from "vue"
 
@@ -64,6 +65,10 @@ let descriptionData = {thunderstorm:[
     ]
 }
 
+
+
+
+
 var allProps = defineProps({
     description: String,
     tempInC: Number,
@@ -76,13 +81,12 @@ var desc = "Sunny", weatherIcon = "./src/assets/icons/weather/003-cloudy.png";
 console.log("message", allProps.tempInC);
 
 
-
 </script>
 
 <template>
 <div title="Weather and News" class="w-fit  mx-3 px-2 py-1 flex flex-row space-x-2 justify-start place-items-center rounded-[4px] hover:bg-slate-700">
     <img src="./src/assets/icons/weather/003-cloudy.png" alt="wIcon" class="h-7">
-    <div class="text-xs text-zinc-100 font-semibold font-mono border">
+    <div class="text-xs text-zinc-100 font-semibold font-mono">
         <p >{{ allProps.tempInC || '0'   }}<sup>o</sup>C</p>
         <p>{{ allProps.description || "Undetermined." }} </p>
     </div>
